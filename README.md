@@ -1,9 +1,11 @@
-# React-Dropdown
-Problem statement - Create a simple dropdown component using React.
+# Problem statement
+Create an app to manage albums.
 
-Instructions
-Create a simple dropdown component.
-On hovering of the button, show the drop down items..
-The dropdown component should receive the items array to display the items in the list.
-On click of an option in dropdown list, close the dropdown.
+
+Features (No need for extra features, just make the listed features)
+Fetch and show albums from the api - https://jsonplaceholder.typicode.com/albums
+Add an album, make a POST call to the above url (from where you are fetching) and save the album in react state. (This will be a dummy request, you won’t be able to add albums to the server. But the request is valid and will send you some data. Read the guide).
+Update the album, make a PUT call to the above url. (Again this is a dummy call).
+Delete an album, make a DELETE call to the above url. (Again this is a dummy call).
+
 
